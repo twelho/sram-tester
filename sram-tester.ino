@@ -43,6 +43,31 @@ const WritePin writePins[] = {
 // The number of addressable memory locations
 const uint32_t addressCount = 2048;
 
+///*
+// * 2114 SRAM (ATMega 2560 pinout)
+// * Pin 12 (Vss) is wired to GND
+// * Pin 18 (CS) is wired to GND
+// * Pin 24 (Vcc) is wired to +5V
+//*/
+//
+//// Address Pins
+//const uint8_t addressPins[] = {
+//  47, 49, 51, 45, 43, 41, 39, 38, 40, 42
+//};
+//
+//// Data Pins
+//const uint8_t dataPins[] = {
+//  44, 46, 48, 50
+//};
+//
+//// Write Pins
+//const WritePin writePins[] = {
+//  {52, true}, // (LOW = WRITE)
+//};
+//
+//// The number of addressable memory locations
+//const uint32_t addressCount = 1024;
+
 // ------------------------------
 
 #define NX(x) (sizeof(x) / sizeof((x)[0]))

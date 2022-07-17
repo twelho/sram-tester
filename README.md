@@ -15,7 +15,7 @@ Before flashing the sketch to your Arduino, create a profile for your configurat
 - `writePins`: The Arduino pins that correspond to the SRAM pins that must be pulled `HIGH` (normal) or `LOW` (inverted) in order to *write* data. The per-pin boolean states if the pin should be inverted.
 - `addressCount`: The number of addressable memory locations in your SRAM model (i.e. its capacity at its native data bus width).
 
-There is an example configuration for testing a 6116 with a Mega 2560 already in place.
+There are example configurations for testing a 6116 and a 2114 with a Mega 2560 already in place.
 
 Connect your SRAM module to the Arduino and flash the sketch using the Arduino IDE. The test begins automatically, and can be followed over serial at a baud rate of 115200. A summary of the results will be output after the test has finished. You can reset the Arduino (e.g. via the button) to start a new test (e.g. after swapping SRAM modules).
 
